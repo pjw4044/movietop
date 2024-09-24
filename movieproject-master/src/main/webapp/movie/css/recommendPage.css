@@ -1,0 +1,10 @@
+@charset "UTF-8";
+.recommend_btn{
+	display: flex;
+	 flex-direction: row;
+	
+}
+.recommend_movie{
+	background-color: rgba(217, 217, 217, 0.5);	
+	height : 500px;
+}

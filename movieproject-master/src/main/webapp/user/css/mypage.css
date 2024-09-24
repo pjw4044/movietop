@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+body{
+    width: 100%;
+}
+body{
+    width: 100%;
+}
+nav {
+    background-color: chartreuse;
+    padding: 5px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+
+  
+  li {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+    list-style: none;
+  }
+  
+  a:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  
+  
+  input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    margin-right: 5px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 15px;
+    background-color: #f7f2f2;
+    color: #bbbbbb;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #ffffff;
+    color: #333;
+    border: 1px solid #333;
+  }
+  span {
+    width: 21px;
+    height: 30px;
+    align-items: flex-end;
+    font-family: SUIT;
+    font-size: 24px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #0c0b0b;
+    
+    bottom: 0;
+    left: 0;
+  }
+
+
+
+
+.myPageboard {
+    width: 312px;
+    height: 741px;
+    margin: 37px 116px 0 0;
+    padding: 75px 102px 197px 90px;
+    border-radius: 15px;
+    background-color: #323131;
+}
+.ui.vertical.menu .item:hover {
+    
+    background-color: rgba(31, 30, 30, 0.904) !important;
+    color: white !important;
+  }
+.board1 {
+    width: 950px;
+    height: 900px;
+    margin: 12px 15px 0 0;
+    opacity: 0.35;
+    border-radius: 15px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    border: solid 1px #faf3f3;
+    background-color: rgba(217, 217, 217, 0.5);
+}
+  
